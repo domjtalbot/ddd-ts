@@ -1,0 +1,9 @@
+{
+  "name": "shopify-store",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/shopify-store",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project shopify-store --web",
+  "targets": {}
+}

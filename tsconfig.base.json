@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@demo/product": ["packages/product/core/src/index.ts"],
+      "@demo/product/adapter/json": [
+        "packages/product/adapters/json/src/index.ts"
+      ],
+      "@demo/product/adapter/magento": [
+        "packages/product/adapters/magento/src/index.ts"
+      ],
+      "@demo/product/react": ["packages/product/ui/react/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

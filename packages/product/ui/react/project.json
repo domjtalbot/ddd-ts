@@ -1,0 +1,9 @@
+{
+  "name": "product-react",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/product/ui/react/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project product-react --web",
+  "targets": {}
+}
